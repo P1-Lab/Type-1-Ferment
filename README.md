@@ -1,22 +1,49 @@
-# Type-1-Ferment
-Professional-grade dual-chamber appliance for mycelial pre-treatment and precision fermentation. Designed for Michelin-star R&amp;D.
+# Dual-Chamber Controlled Fermentation Appliance (Type 1)
 
-<b>Type:1 Ferment</b><BR>
-The keystone of a new culinary canon. This appliance transforms agricultural byproducts into gourmet substrates via a specialized dual-chamber system.  
+This repository defines a dual-chamber controlled-environment appliance designed for fungal and bacterial fermentation processes requiring independent control of temperature, humidity, airflow, and atmospheric composition.
 
+The system supports solid-state and liquid fermentation workflows under programmable environmental conditions.
 
-<b>Core Systems</b><BR>
+---
 
-<b>Chamber A (Mycelial/Koji):</b> Optimized for Aspergillus oryzae and mushroom mycelia (20–36°C).  
+## System Overview
 
+The appliance consists of:
 
+- Chamber A: solid-state aerobic fermentation zone  
+- Chamber B: extended controlled fermentation zone  
+- Central embedded control system managing environmental parameters  
 
-<b>Chamber B (Long Ferment):</b> Thermal enzymatic zone for high-fat and deep ferments (40–75°C).  
+---
 
+## Core Functions
 
+- Independent thermal regulation per chamber  
+- Humidity and airflow modulation  
+- Controlled gas exchange (CO₂/O₂ management)  
+- Programmable fermentation phases  
+- Sterilization and sanitation cycles  
+- Data logging and export capabilities  
 
-<b>Auream OS</b>: Profile-driven touchscreen control with CSV batch logging and WiFi monitoring.  
+---
 
+## Repository Contents
 
-<b>Technical Highlight</b><BR>
-Built with AISI 316L stainless steel, matte black ceramic nano-coating, and solid cast copper handles. Includes HEPA/UVC hygiene stack.
+- system_architecture.md  
+- interfaces_definition.md  
+- components_bill_of_materials.md  
+- control_logic.md  
+- operational_modes.md  
+- fault_states_and_recovery.md  
+- maintenance_and_service.md  
+- manufacturing_constraints.md  
+- safety_and_compliance.md  
+
+---
+
+## Intended Use
+
+Engineering reference for:
+- appliance development teams  
+- contract manufacturers  
+- industrial fermentation system designers  
